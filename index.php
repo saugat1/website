@@ -91,7 +91,7 @@
 			<div class="row text-center">
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="img/game.jpg" alt="" class="card-img img-fluid">
+						<img src="/game.jpg" alt="" class="card-img img-fluid">
 					
 					<div class="card-body">
 						<h3 class="card-title">Mobile Games</h3>
@@ -101,7 +101,7 @@
 				</div>
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="img/graphicdesign.jpg" alt="" class="card-img img-fluid">
+						<img src="/graphicdesign.jpg" alt="" class="card-img img-fluid">
 					
 					<div class="card-body">
 						<h3 class="card-title">Graphic Design</h3>
@@ -111,7 +111,7 @@
 				</div>
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="img/uiux.jpg" alt="" class="card-img img-fluid" style="">
+						<img src="/uiux.jpg" alt="" class="card-img img-fluid" style="">
 					
 					<div class="card-body">
 						<h3 class="card-title">Mobile App Design</h3>
@@ -123,7 +123,7 @@
 			<div class="row text-center">
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="img/website.jpg" alt="" class="card-img img-fluid">
+						<img src="/website.jpg" alt="" class="card-img img-fluid">
 					
 					<div class="card-body">
 						<h3 class="card-title">Website Developing</h3>
@@ -133,7 +133,7 @@
 				</div>
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="img/uiux.jpg" alt="" class="card-img img-fluid">
+						<img src="/uiux.jpg" alt="" class="card-img img-fluid">
 					
 					<div class="card-body">
 						<h3 class="card-title">UI/UX Design</h3>
@@ -143,7 +143,7 @@
 				</div>
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="img/graphicdesign.jpg" alt="" class="card-img img-fluid" style="">
+						<img src="/graphicdesign.jpg" alt="" class="card-img img-fluid" style="">
 					
 					<div class="card-body">
 						<h3 class="card-title">Videography</h3>
@@ -168,7 +168,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
         <figure class="figure">
-        	<img src="img/me/2.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
+        	<img src="/2.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
         	<figcaption>
         		<h4>Nir Bahadur Rana</h4>
         		<p>Professional Web Developer</p>
@@ -177,7 +177,7 @@
     </div>
     <div class="carousel-item">
       <figure class="figure">
-        	<img src="img/me/4.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
+        	<img src="/4.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
         	<figcaption>
         		<h4>Saugat Rana</h4>
         		<p>Professional Game Developer</p>
@@ -193,7 +193,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
         <figure class="figure">
-        	<img src="img/me/2.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
+        	<img src="/2.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
         	<figcaption>
         		<h4>Nirmalhaxx</h4>
         		<p>Software Developer</p>
@@ -202,7 +202,7 @@
     </div>
     <div class="carousel-item">
       <figure class="figure">
-        	<img src="img/me/4.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
+        	<img src="/4.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
         	<figcaption>
         		<h4>Saugat Malla</h4>
         		<p>Graphic Designer</p>
@@ -305,7 +305,9 @@
 			</div>
 		</div>
 	
+<?php
 
+?>
 
 	<!-- bootstrap cdn jwueryand javascripts -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
