@@ -245,7 +245,7 @@
 					<button class="btn btn-danger mr-sm-n5">Read More</button>
 				</div>
 				<div class="col-md-4 mt-md-n3 m-auto text-center text-sm-left" style="height: 400px;">
-					<img src="img/pics.jpg" alt="" height="400px" width="100%">
+					<img src="pics.jpg" alt="" height="400px" width="100%">
 				</div>
 			</div>
 		</div>
