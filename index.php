@@ -7,7 +7,7 @@
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="form.css">
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="animate.css">
 	<script>
 		function gerald() {
 			var kid = document.getElementById('loader');
@@ -129,7 +129,7 @@
 			<div class="row text-center">
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="img/game.jpg" alt="" class="card-img img-fluid">
+						<img src="game.jpg" alt="" class="card-img img-fluid">
 					
 					<div class="card-body">
 						<h3 class="card-title">Mobile Games</h3>
@@ -139,7 +139,7 @@
 				</div>
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="img/graphicdesign.jpg" alt="" class="card-img img-fluid">
+						<img src="graphicdesign.jpg" alt="" class="card-img img-fluid">
 					
 					<div class="card-body">
 						<h3 class="card-title">Graphic Design</h3>
@@ -149,7 +149,7 @@
 				</div>
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="img/uiux.jpg" alt="" class="card-img img-fluid" style="">
+						<img src="uiux.jpg" alt="" class="card-img img-fluid" style="">
 					
 					<div class="card-body">
 						<h3 class="card-title">Mobile App Design</h3>
@@ -161,7 +161,7 @@
 			<div class="row text-center">
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="img/website.jpg" alt="" class="card-img img-fluid">
+						<img src="website.jpg" alt="" class="card-img img-fluid">
 					
 					<div class="card-body">
 						<h3 class="card-title">Website Developing</h3>
@@ -171,7 +171,7 @@
 				</div>
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="img/uiux.jpg" alt="" class="card-img img-fluid">
+						<img src="uiux.jpg" alt="" class="card-img img-fluid">
 					
 					<div class="card-body">
 						<h3 class="card-title">UI/UX Design</h3>
@@ -181,7 +181,7 @@
 				</div>
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="img/graphicdesign.jpg" alt="" class="card-img img-fluid" style="">
+						<img src="graphicdesign.jpg" alt="" class="card-img img-fluid" style="">
 					
 					<div class="card-body">
 						<h3 class="card-title">Videography</h3>
@@ -206,7 +206,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
         <figure class="figure">
-        	<img src="img/me/2.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
+        	<img src="/2.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
         	<figcaption>
         		<h4>Nir Bahadur Rana</h4>
         		<p>Professional Web Developer</p>
@@ -215,7 +215,7 @@
     </div>
     <div class="carousel-item">
       <figure class="figure">
-        	<img src="img/me/4.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
+        	<img src="4.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
         	<figcaption>
         		<h4>Saugat Rana</h4>
         		<p>Professional Game Developer</p>
@@ -231,7 +231,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
         <figure class="figure">
-        	<img src="img/me/2.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
+        	<img src="2.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
         	<figcaption>
         		<h4>Nirmalhaxx</h4>
         		<p>Software Developer</p>
@@ -240,7 +240,7 @@
     </div>
     <div class="carousel-item">
       <figure class="figure">
-        	<img src="img/me/4.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
+        	<img src="4.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
         	<figcaption>
         		<h4>Saugat Malla</h4>
         		<p>Graphic Designer</p>
@@ -283,7 +283,7 @@
 					<button class="btn btn-danger mr-sm-n5">Read More</button>
 				</div>
 				<div class="col-md-4 mt-md-n3 m-auto text-center text-sm-left" style="height: 400px;">
-					<img src="img/pics.jpg" alt="" height="400px" width="100%">
+					<img src="pics.jpg" alt="" height="400px" width="100%">
 				</div>
 			</div>
 		</div>
@@ -362,7 +362,7 @@
 		
 	});
 </script>
-<script src="js/WOW.js"></script>
+<script src="WOW.js"></script>
 <script>
 	new WOW().init();
 </script>
