@@ -2,11 +2,49 @@
 <html>
 <head>
 	<title>leson</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="bootstrap.css">
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="form.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<script>
+		function gerald() {
+			var kid = document.getElementById('loader');
+			kid.style.display = 'none';
+		}
+	</script>
 </head>
-<body>
+<body onLoad="gerald()">
+
+	<!-- preloaderhere -->
+	<div class="fixed-top" id="loader"></div>
+
+	<!-- form starts here -->
+	<div class="container formpanel fixed-top">
+		<div class="row m-auto formdisplay">
+			<div class="col-md-7 m-auto">
+				<span class="close">&times;</span>
+	<form action="" class="forms">
+			<h3>Login</h3>
+			<span>
+			<label for="email">Email address</label><br>
+			<i class="fa fa-envelope"></i>
+    <input type="email" id="email" placeholder="Type Your Email"><br>
+</span>
+			<br>
+			<span>
+			<label for="password">Password</label><br>
+			<i class="fa fa-lock"></i>
+    <input type="password" id="password" placeholder="Type Your Password">
+</span>
+			<button type="button" class="btn btn-light">Login</button><br>
+			<span class="text-white">Forgor Password ? <a href="#" class="font-weight-bold text-danger">Reset</a></span>
+	</form>
+	</div>
+</div>
+</div>
+	<!-- menustarts here -->
 	<div id="topbackground">
 	<div class="container-fluid">
 		
@@ -17,28 +55,28 @@
 			</button>
 			<div class="collapse navbar-collapse" id="omg">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item dropdown text-white">
+					<li class="nav-item dropdown text-white mr-5">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Login
+          LOGIN
         		</a>
         		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          		<a class="dropdown-item" href="#">Login</a>
-         		 <a class="dropdown-item" href="#">Register</a>
+          		<a class="dropdown-item click">Login</a>
+         		 <a class="dropdown-item">Register</a>
           		<div class="dropdown-divider"></div>
           		<a class="dropdown-item" href="https://autocvbynir.herokuapp.com/">CV Creator</a>
         		</div>
       				</li>
-					<li class="nav-item"><a href="#" class="nav-link text-white">PRODUCT</a></li>
-					<li class="nav-item"><a href="#" class="nav-link text-white">SERVICES</a></li>
-					<li class="nav-item"><a href="#" class="nav-link text-white">GRENERS</a></li>
-					<li class="nav-item"><a href="#" class="nav-link text-white">LOGIN</a></li>
+					<li class="nav-item mr-5"><a href="#" class="nav-link text-white">PRODUCT</a></li>
+					<li class="nav-item mr-5"><a href="#" class="nav-link text-white">SERVICES</a></li>
+					<li class="nav-item mr-5"><a href="#" class="nav-link text-white">GRENERS</a></li>
+					<li class="nav-item mr-5"><a href="#" class="nav-link text-white">LOGIN</a></li>
 					
 				</ul>
 			</div>
 		</nav>
 	</div>
 	<div class="container firstcontent text-white text-center">
-		<h2>WELCOME TO MY WEBSITE VISITORS</h2>
+		<h2 class="wow fadeInDown" data-wow-duration="5s">WELCOME TO MY WEBSITE VISITORS</h2>
 		<h1>THIS IS THE AWESOME</h1>
 		<button class="btn-primary text-white btn-lg">Encroll Design</button>
 	</div>
@@ -52,7 +90,7 @@
 		<p>We Provide The Powerful Web And Application Develop Services.</p></div>
 		<div class="row servicerow">
 			<div class="col-md-3 col-sm-6 m-auto d-block col-10">
-				<div class="serviceone m-auto">
+				<div class="serviceone m-auto wow bounceInUp" data-wow-duration="3s">
 					<i class="fa fa-desktop fa-4x"></i>
 					<h3>Desktop Application</h3>
 					<p>HHey We can develop a mobile and ios Application . we have a team to perform that we can product a reliable and clients friendly application that meet the requirement of our customer.</p>
@@ -91,7 +129,7 @@
 			<div class="row text-center">
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="/game.jpg" alt="" class="card-img img-fluid">
+						<img src="img/game.jpg" alt="" class="card-img img-fluid">
 					
 					<div class="card-body">
 						<h3 class="card-title">Mobile Games</h3>
@@ -101,7 +139,7 @@
 				</div>
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="/graphicdesign.jpg" alt="" class="card-img img-fluid">
+						<img src="img/graphicdesign.jpg" alt="" class="card-img img-fluid">
 					
 					<div class="card-body">
 						<h3 class="card-title">Graphic Design</h3>
@@ -111,7 +149,7 @@
 				</div>
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="/uiux.jpg" alt="" class="card-img img-fluid" style="">
+						<img src="img/uiux.jpg" alt="" class="card-img img-fluid" style="">
 					
 					<div class="card-body">
 						<h3 class="card-title">Mobile App Design</h3>
@@ -123,7 +161,7 @@
 			<div class="row text-center">
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="/website.jpg" alt="" class="card-img img-fluid">
+						<img src="img/website.jpg" alt="" class="card-img img-fluid">
 					
 					<div class="card-body">
 						<h3 class="card-title">Website Developing</h3>
@@ -133,7 +171,7 @@
 				</div>
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="/uiux.jpg" alt="" class="card-img img-fluid">
+						<img src="img/uiux.jpg" alt="" class="card-img img-fluid">
 					
 					<div class="card-body">
 						<h3 class="card-title">UI/UX Design</h3>
@@ -143,7 +181,7 @@
 				</div>
 				<div class="col-md-4 col-sm-6 m-auto d-block">
 					<div class="card">
-						<img src="/graphicdesign.jpg" alt="" class="card-img img-fluid" style="">
+						<img src="img/graphicdesign.jpg" alt="" class="card-img img-fluid" style="">
 					
 					<div class="card-body">
 						<h3 class="card-title">Videography</h3>
@@ -168,7 +206,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
         <figure class="figure">
-        	<img src="/2.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
+        	<img src="img/me/2.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
         	<figcaption>
         		<h4>Nir Bahadur Rana</h4>
         		<p>Professional Web Developer</p>
@@ -177,7 +215,7 @@
     </div>
     <div class="carousel-item">
       <figure class="figure">
-        	<img src="/4.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
+        	<img src="img/me/4.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
         	<figcaption>
         		<h4>Saugat Rana</h4>
         		<p>Professional Game Developer</p>
@@ -193,7 +231,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
         <figure class="figure">
-        	<img src="/2.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
+        	<img src="img/me/2.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
         	<figcaption>
         		<h4>Nirmalhaxx</h4>
         		<p>Software Developer</p>
@@ -202,7 +240,7 @@
     </div>
     <div class="carousel-item">
       <figure class="figure">
-        	<img src="/4.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
+        	<img src="img/me/4.jpg" alt="" class="img-fluid rounded-circle figure-img" height="160px" width="160px">
         	<figcaption>
         		<h4>Saugat Malla</h4>
         		<p>Graphic Designer</p>
@@ -245,7 +283,7 @@
 					<button class="btn btn-danger mr-sm-n5">Read More</button>
 				</div>
 				<div class="col-md-4 mt-md-n3 m-auto text-center text-sm-left" style="height: 400px;">
-					<img src="pics.jpg" alt="" height="400px" width="100%">
+					<img src="img/pics.jpg" alt="" height="400px" width="100%">
 				</div>
 			</div>
 		</div>
@@ -305,13 +343,28 @@
 			</div>
 		</div>
 	
-<?php
 
-?>
 
 	<!-- bootstrap cdn jwueryand javascripts -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+	$(document).ready(function(){
+		$(".click").click(function(){
+			$(".formdisplay").toggle();
+		});
+
+		$(".close").click(function(){
+			$(".formdisplay").hide();
+		});
+
+		
+	});
+</script>
+<script src="js/WOW.js"></script>
+<script>
+	new WOW().init();
+</script>
 </body>
 </html>
